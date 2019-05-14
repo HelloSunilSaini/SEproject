@@ -14,12 +14,16 @@ sudo apt-get install python3-pip
 sudo pip3 install virtualenv 
 virtualenv venv 
 source venv/bin/activate
-pip install requirement.txt
+pip install flask
+pip install flask_restful
+pip install flask_cors
+pip install jsonschema
+pip install bson
 deactivate
 
 # nginx installation
 sudo apt install nginx
-cp default /etc/nginx/sites-available/default
+sudo cp default /etc/nginx/sites-available/default
 
 # chrome installation
 sudo apt-get install google-chrome-stable 
@@ -53,4 +57,4 @@ install_chrome_extension "gbkeegbaiigmenfmjfclcdgdpimamgkj" "Office Editing for 
 install_chrome_extension "ghbmnnjooekpmoecnnnilnnbdlolhkhi" "Google Docs Offline"
 
 # bin folder command
-ls -s ./run.sh /bin/doc_recognition
+sudo ln -s ./run.sh /bin/doc_recognition
