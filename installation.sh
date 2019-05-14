@@ -10,6 +10,7 @@ sudo apt-get install npm
 # sudo apt-get install mongodb
 
 # backend installation
+sudo apt-get install antiword
 sudo apt-get install python3-pip
 sudo pip3 install virtualenv 
 virtualenv venv 
