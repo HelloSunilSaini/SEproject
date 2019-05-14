@@ -5,6 +5,11 @@ sudo apt-get install curl python-software-properties
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install npm
+npm install -g serve
+cd docfileproject
+npm install
+# npm start
+npm run build
 
 # install mongodb for data store
 # sudo apt-get install mongodb
@@ -25,6 +30,7 @@ deactivate
 # nginx installation
 sudo apt install nginx
 sudo cp default /etc/nginx/sites-available/default
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
 # chrome installation
 sudo apt-get install google-chrome-stable 
