@@ -64,4 +64,4 @@ install_chrome_extension "gbkeegbaiigmenfmjfclcdgdpimamgkj" "Office Editing for 
 install_chrome_extension "ghbmnnjooekpmoecnnnilnnbdlolhkhi" "Google Docs Offline"
 
 # bin folder command
-sudo ln -s ./run.sh /bin/doc_recognition
+# sudo ln -s ./run.sh /bin/doc_recognition

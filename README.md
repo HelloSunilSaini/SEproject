@@ -6,4 +6,4 @@ Run command for installation
 
 Run command for Application
 
-~$ doc_recognition
+~$ ./run.sh
