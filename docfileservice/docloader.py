@@ -113,7 +113,7 @@ def updateFilelists():
                 else:
                     all_percent_list.append({"file1" :all_file_list[i],"file2" : all_file_list[j],"similarity":similarity})
     global all_file_similarity_list
-    all_percent_list.sort(cmp=None,key=lambda d : d['similarity'],reverse=True)
+    all_percent_list.sort(key=lambda d : d['similarity'],reverse=True)
     all_file_similarity_list = all_percent_list[:]
 
 def delete_list_of_files(filesList):
