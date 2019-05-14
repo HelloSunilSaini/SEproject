@@ -15,9 +15,9 @@ class Documents(Resource):
     
     def post(self):
         payload = request.json
-        print payload
+        print (payload)
         files = payload['files']
-        print files
+        print (files)
         err = delete_list_of_files(files)
         if err != None:
             return err,400

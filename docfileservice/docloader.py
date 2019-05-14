@@ -88,7 +88,7 @@ def updateFilelists():
     # print(l)
     global all_file_list 
     all_file_list = k[:len(k)-1]
-    print all_file_list
+    print (all_file_list)
     n = len(all_file_list)
     all_file_text = []
     for i in range(n):
